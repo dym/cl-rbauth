@@ -13,4 +13,6 @@
            :generate-session
            :authenticated-p
            :get-username
-           :get-token))
+           :get-token
+           :get-first-name
+           :get-last-name))

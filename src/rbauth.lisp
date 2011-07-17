@@ -74,3 +74,13 @@
   (let ((account (find-account session)))
     (if account
         (elt (parse-value (get-value account)) 1))))
+
+(defun get-first-name (session)
+  (let ((account (find-account session)))
+    (if account
+        (elt (parse-value (get-value account)) 3))))
+
+(defun get-last-name (session)
+  (let ((account (find-account session)))
+    (if account
+        (elt (parse-value (get-value account)) 4))))
