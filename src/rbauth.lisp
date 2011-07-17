@@ -64,3 +64,8 @@
 (defun authenticated-p (session)
   (if (find-account session)
       t))
+
+(defun get-token (session)
+  (let ((account (find-account session)))
+    (if account
+        (elt (parse-value (get-value account)) 1))))

@@ -11,4 +11,5 @@
   (:export :login
            :logout
            :generate-session
-           :authenticated-p))
+           :authenticated-p
+           :get-token))
