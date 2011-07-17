@@ -12,4 +12,5 @@
            :logout
            :generate-session
            :authenticated-p
+           :get-username
            :get-token))
