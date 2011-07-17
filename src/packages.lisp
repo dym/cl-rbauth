@@ -8,5 +8,7 @@
         :iter
         :md5
         :local-time)
-  (:export :api
-           :*connection*))
+  (:export :login
+           :logout
+           :generate-session
+           :authenticated-p))
